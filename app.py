@@ -7,7 +7,7 @@ def delete_bin_files(data_folder):
         if filename.endswith('.bin'):
             os.remove(os.path.join(data_folder, filename))
 
-def create_random_bin_files(data_folder, count=100, max_size_mb=2):
+def create_random_bin_files(data_folder, count=10, max_size_mb=2):
     chars = string.ascii_letters + string.digits
     for i in range(count):
         rand_name = ''.join(random.choices(chars, k=8))
