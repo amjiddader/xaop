@@ -23,3 +23,4 @@ if not os.path.exists(data_folder):
 if __name__ == "__main__":
     delete_bin_files(data_folder)
     create_random_bin_files(data_folder)
+ 
