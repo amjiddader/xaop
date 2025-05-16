@@ -24,7 +24,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.name 'amjiddader'
-          git config --global user.email 'github-actions@users.noreply.github.com'
+          git config --global user.email 'amjiddader@gmail.com'
           git add data/*.bin
           git commit -m "Updated" || echo "No changes to commit"
           git push
